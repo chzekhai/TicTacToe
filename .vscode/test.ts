@@ -48,25 +48,25 @@
 //9
 //console.log(T3.length)
 
-let T3:number[];
-T3 = [0,1,2,3,4,5,6,7,8]
+// let T3:number[];
+// T3 = [0,1,2,3,4,5,6,7,8]
 
-console.log('P1 : X - Please select a position [0-8]')
-console.log('=======================================')
+// console.log('P1 : X - Please select a position [0-8]')
+// console.log('=======================================')
 
-import {question} from 'readline-sync';
+// import {question} from 'readline-sync';
 
-console.log(T3[0],T3[1],T3[2])
-console.log(T3[3],T3[4],T3[5])
-console.log(T3[6],T3[7],T3[8])
+// console.log(T3[0],T3[1],T3[2])
+// console.log(T3[3],T3[4],T3[5])
+// console.log(T3[6],T3[7],T3[8])
 
-let position = question("Where you want to place your position[0-8]?\n");
+// let position = question("Where you want to place your position[0-8]?\n");
 
-//console.log(position)
+// //console.log(position)
 
-T3[position] = 'X'
+// T3[position] = 'X'
 
-console.log('=======================================')
+// console.log('=======================================')
 
 //console.log(T3[0],T3[1],T3[2])
 //console.log(T3[3],T3[4],T3[5])
@@ -78,11 +78,19 @@ console.log('=======================================')
 
 // let position2 = question("Where you want to place your position[0-8]?\n")
 
-function DisplayContent()
-{   
-    for (let i=0,i<9,i++)
-    //console.log(T3[i])
-    //console.log(T3[0],T3[1],T3[2])
-    //console.log(T3[3],T3[4],T3[5])
-    //console.log(T3[6],T3[7],T3[8])
+// function DisplayContent()
+// {   
+//     for (let i=0,i<9,i++)
+//     //console.log(T3[i])
+//     //console.log(T3[0],T3[1],T3[2])
+//     //console.log(T3[3],T3[4],T3[5])
+//     //console.log(T3[6],T3[7],T3[8])
+// }
+
+function greeter(person) {
+    return "Hello, " + person;
 }
+
+let user = "Jane User";
+
+console.log(greeter(user));
