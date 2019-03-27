@@ -24,6 +24,47 @@ console.log(T3[6],T3[7],T3[8])
 
 console.log('=======================================')
 
+//P1 : X - WIN
+if (T3[0] && T3[1] && T3[2] === 'X')
+{
+    console.log('P1 : X - WIN')    
+}
+else if (T3[3] && T3[4] && T3[5] === 'X')
+{
+    console.log('P1 : X - WIN')
+}    
+else if (T3[6] && T3[7] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[1] && T3[4] && T3[7] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[2] && T3[5] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[4] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[2] && T3[4] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+
+console.log(position)
+console.log(T3)
+
 //2nd position
 console.log('P2 : Y - Please select a position [0-8]')
 
@@ -38,6 +79,47 @@ console.log(T3[3],T3[4],T3[5])
 console.log(T3[6],T3[7],T3[8])
 
 console.log('=======================================')
+
+//P2 : Y - WIN
+if (T3[0] && T3[1] && T3[2] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[3] && T3[4] && T3[5] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}    
+else if (T3[6] && T3[7] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[1] && T3[4] && T3[7] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[2] && T3[5] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[4] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[2] && T3[4] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+
+console.log(position2)
+console.log(T3)
 
 //3rd position
 console.log('P1 : X - Please select a position [0-8]')
@@ -54,6 +136,47 @@ console.log(T3[6],T3[7],T3[8])
 
 console.log('=======================================')
 
+//P1 : X - WIN
+if (T3[0] && T3[1] && T3[2] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[3] && T3[4] && T3[5] === 'X')
+{
+    console.log('P1 : X - WIN')
+}    
+else if (T3[6] && T3[7] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[1] && T3[4] && T3[7] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[2] && T3[5] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[4] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[2] && T3[4] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+
+console.log(position3)
+console.log(T3)
+
 //4th position
 console.log('P2 : Y - Please select a position [0-8]')
 
@@ -68,6 +191,47 @@ console.log(T3[3],T3[4],T3[5])
 console.log(T3[6],T3[7],T3[8])
 
 console.log('=======================================')
+
+//P2 : Y - WIN
+if (T3[0] && T3[1] && T3[2] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[3] && T3[4] && T3[5] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}    
+else if (T3[6] && T3[7] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[1] && T3[4] && T3[7] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[2] && T3[5] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[4] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[2] && T3[4] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+
+console.log(position4)
+console.log(T3)
 
 //5th position
 console.log('P1 : X - Please select a position [0-8]')
@@ -84,6 +248,44 @@ console.log(T3[6],T3[7],T3[8])
 
 console.log('=======================================')
 
+//P1 : X - WIN
+if (T3[0] && T3[1] && T3[2] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[3] && T3[4] && T3[5] === 'X')
+{
+    console.log('P1 : X - WIN')
+}    
+else if (T3[6] && T3[7] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[1] && T3[4] && T3[7] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[2] && T3[5] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[4] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[2] && T3[4] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+
 //6th position
 console.log('P2 : Y - Please select a position [0-8]')
 
@@ -98,6 +300,44 @@ console.log(T3[3],T3[4],T3[5])
 console.log(T3[6],T3[7],T3[8])
 
 console.log('=======================================')
+
+//P2 : Y - WIN
+if (T3[0] && T3[1] && T3[2] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[3] && T3[4] && T3[5] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}    
+else if (T3[6] && T3[7] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[1] && T3[4] && T3[7] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[2] && T3[5] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[4] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[2] && T3[4] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
 
 //7th position
 console.log('P1 : X - Please select a position [0-8]')
@@ -114,6 +354,44 @@ console.log(T3[6],T3[7],T3[8])
 
 console.log('=======================================')
 
+//P1 : X - WIN
+if (T3[0] && T3[1] && T3[2] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[3] && T3[4] && T3[5] === 'X')
+{
+    console.log('P1 : X - WIN')
+}    
+else if (T3[6] && T3[7] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[1] && T3[4] && T3[7] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[2] && T3[5] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[0] && T3[4] && T3[8] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+else if (T3[2] && T3[4] && T3[6] === 'X')
+{
+    console.log('P1 : X - WIN')
+}
+
 //8th position
 console.log('P2 : Y - Please select a position [0-8]')
 
@@ -129,6 +407,43 @@ console.log(T3[6],T3[7],T3[8])
 
 console.log('=======================================')
 
+//P2 : Y - WIN
+if (T3[0] && T3[1] && T3[2] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[3] && T3[4] && T3[5] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}    
+else if (T3[6] && T3[7] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[3] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[1] && T3[4] && T3[7] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[2] && T3[5] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[0] && T3[4] && T3[8] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
+else if (T3[2] && T3[4] && T3[6] === 'Y')
+{
+    console.log('P2 : Y - WIN')
+}
 //9th position
 console.log('P1 : X - Please select a position [0-8]')
 
@@ -177,45 +492,83 @@ else if (T3[0] && T3[4] && T3[8] === 'X')
 {
     console.log('P1 : X - WIN')
 }
-else (T3[2] && T3[4] && T3[6] === 'X')
+else if (T3[2] && T3[4] && T3[6] === 'X')
 {
     console.log('P1 : X - WIN')
 }
 
-//P2 : Y - WIN
-if (T3[0] && T3[1] && T3[2] === 'Y')
-{
-    console.log('P2 : Y - WIN')
-}
-else if (T3[3] && T3[4] && T3[5] === 'Y')
-{
-    console.log('P2 : Y - WIN')
-}    
-else if (T3[6] && T3[7] && T3[8] === 'Y')
-{
-    console.log('P2 : Y - WIN')
-}
-else if (T3[0] && T3[3] && T3[6] === 'Y')
-{
-    console.log('P2 : Y - WIN')
-}
-else if (T3[0] && T3[3] && T3[6] === 'Y')
-{
-    console.log('P2 : Y - WIN')
-}
-else if (T3[1] && T3[4] && T3[7] === 'Y')
-{
-    console.log('P2 : Y - WIN')
-}
-else if (T3[2] && T3[5] && T3[8] === 'Y')
-{
-    console.log('P2 : Y - WIN')
-}
-else if (T3[0] && T3[4] && T3[8] === 'Y')
-{
-    console.log('P2 : Y - WIN')
-}
-else (T3[2] && T3[4] && T3[6] === 'Y')
-{
-    console.log('P2 : Y - WIN')
-}
+// //P1 : X - WIN
+// if (T3[0] && T3[1] && T3[2] === 'X')
+// {
+//     console.log('P1 : X - WIN')
+// }
+// else if (T3[3] && T3[4] && T3[5] === 'X')
+// {
+//     console.log('P1 : X - WIN')
+// }    
+// else if (T3[6] && T3[7] && T3[8] === 'X')
+// {
+//     console.log('P1 : X - WIN')
+// }
+// else if (T3[0] && T3[3] && T3[6] === 'X')
+// {
+//     console.log('P1 : X - WIN')
+// }
+// else if (T3[0] && T3[3] && T3[6] === 'X')
+// {
+//     console.log('P1 : X - WIN')
+// }
+// else if (T3[1] && T3[4] && T3[7] === 'X')
+// {
+//     console.log('P1 : X - WIN')
+// }
+// else if (T3[2] && T3[5] && T3[8] === 'X')
+// {
+//     console.log('P1 : X - WIN')
+// }
+// else if (T3[0] && T3[4] && T3[8] === 'X')
+// {
+//     console.log('P1 : X - WIN')
+// }
+// else (T3[2] && T3[4] && T3[6] === 'X')
+// {
+//     console.log('P1 : X - WIN')
+// }
+
+// //P2 : Y - WIN
+// if (T3[0] && T3[1] && T3[2] === 'Y')
+// {
+//     console.log('P2 : Y - WIN')
+// }
+// else if (T3[3] && T3[4] && T3[5] === 'Y')
+// {
+//     console.log('P2 : Y - WIN')
+// }    
+// else if (T3[6] && T3[7] && T3[8] === 'Y')
+// {
+//     console.log('P2 : Y - WIN')
+// }
+// else if (T3[0] && T3[3] && T3[6] === 'Y')
+// {
+//     console.log('P2 : Y - WIN')
+// }
+// else if (T3[0] && T3[3] && T3[6] === 'Y')
+// {
+//     console.log('P2 : Y - WIN')
+// }
+// else if (T3[1] && T3[4] && T3[7] === 'Y')
+// {
+//     console.log('P2 : Y - WIN')
+// }
+// else if (T3[2] && T3[5] && T3[8] === 'Y')
+// {
+//     console.log('P2 : Y - WIN')
+// }
+// else if (T3[0] && T3[4] && T3[8] === 'Y')
+// {
+//     console.log('P2 : Y - WIN')
+// }
+// else (T3[2] && T3[4] && T3[6] === 'Y')
+// {
+//     console.log('P2 : Y - WIN')
+// }
